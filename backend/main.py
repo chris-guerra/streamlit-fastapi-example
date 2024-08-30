@@ -8,7 +8,8 @@ import numpy as np
 from PIL import Image
 
 import config
-import inference
+# import inference
+from inference import inference
 
 app = FastAPI()
 
