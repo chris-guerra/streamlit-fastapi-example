@@ -163,3 +163,4 @@ cython_debug/
 
 # Remove the models to add since they are heavy
 /backend/models/*.t7
+/storage/
