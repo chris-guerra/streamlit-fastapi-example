@@ -7,8 +7,8 @@ from fastapi import UploadFile
 import numpy as np
 from PIL import Image
 
-# import config
-# import inference
+import config
+import inference
 
 app = FastAPI()
 
@@ -18,7 +18,12 @@ def read_root():
 
 @app.post("/{style}")
 def get_image(style: str, file: UploadFile = File(...)):
-    pass
+    image = np.array(Image.open(file.file))
+    model = config.STYLES[style]
+    output, resized = inference(model, image) # in the code it says inference.inference
+    name = f"/storage/{str(uuid.uuid4())}.jpg"
+    cv2.imwrite(name, output)
+    return {"name": name}
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8080)
