@@ -2,6 +2,18 @@ import config
 import cv2
 
 def inference(model, image):
+    """
+    Perform inference using a specified model and image.
+
+    Args:
+        model_name (str): Name of the model to load.
+        image (numpy.ndarray): Input image for the model.
+
+    Returns:
+        numpy.ndarray: The processed output image.
+        numpy.ndarray: The resized input image.
+    """
+
     model_name = f"{config.MODEL_PATH}{model}.t7"
     model = cv2.dnn.readNetFromTorch(model_name)
 
