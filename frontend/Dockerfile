@@ -3,7 +3,8 @@ FROM python:3.10.1-slim
 WORKDIR /app
 
 # Set the PYTHONPATH environment variable
-# ENV PYTHONPATH="/app:/backend"
+# ENV PYTHONPATH="/app:/app/my_module"
+#ENV PYTHONPATH="/app:/frontend"
 
 RUN apt-get update
 RUN apt-get install \
@@ -16,7 +17,7 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 8501
 
-CMD ["python", "main.py"]
+CMD ["streamlit", "run", "main.py"]
 # CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
