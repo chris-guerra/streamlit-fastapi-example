@@ -62,6 +62,10 @@ The project is organized into two main components:
    git clone https://github.com/chris-guerra/style-shift-ml.git
    cd style-shift-ml
    ```
+2. **Download models:**
+```bash
+sh download_models.sh
+```
 2. **Build and start the application:**
    ```bash
     docker compose up --build -d
@@ -75,3 +79,7 @@ Backend: The API is accessible at http://localhost:8080.
 ```bash
 docker compose down
 ```
+
+### Credits:
+
+https://www.youtube.com/watch?v=cCsnmxXxWaM
