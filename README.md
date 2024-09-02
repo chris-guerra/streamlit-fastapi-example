@@ -125,4 +125,4 @@ Below are some examples showcasing the application's functionality:
 
 Special thanks to the resources that inspired and guided this project:
 
-[Youtube Video](https://www.youtube.com/watch?v=cCsnmxXxWaM))
+[Youtube Video](https://www.youtube.com/watch?v=cCsnmxXxWaM)
