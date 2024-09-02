@@ -102,7 +102,7 @@ Below are some examples showcasing the application's functionality:
 ![Streamlit App](example_images/streamlit-app.png)
 
 <div style="text-align: center;">
-    <img src="drawing.jpg" alt="drawing" width="1000"/>
+    <img src="example_images/streamlit-app.png" alt="Streamlit App" width="1000"/>
 </div>
 
 <img src="example_images/streamlit-app.png" alt="Streamlit App" width="200"/>
