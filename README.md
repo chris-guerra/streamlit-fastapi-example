@@ -99,25 +99,27 @@ Below are some examples showcasing the application's functionality:
 
 **Streamlit Application:**
 
-![Streamlit App](example_images/streamlit-app.png)
-
 <div style="text-align: center;">
     <img src="example_images/streamlit-app.png" alt="Streamlit App" width="1000"/>
 </div>
 
-<img src="example_images/streamlit-app.png" alt="Streamlit App" width="200"/>
-
 **Streamlit Application With Processed Image:**
 
-![Processed Streamlit](example_images/streamlit-app-loaded.png)
+<div style="text-align: center;">
+    <img src="example_images/streamlit-app-loaded.png" alt="Processed Streamlit" width="1000"/>
+</div>
 
 **Input Image:**
 
-![Cat JPEG](example_images/cat.jpg)
+<div style="text-align: center;">
+    <img src="example_images/cat.jpg" alt="Cat JPEG" width="1000"/>
+</div>
 
 **Output Image:**
 
-![Cat Processed JPEG](example_images/cat-processed.jpg)
+<div style="text-align: center;">
+    <img src="example_images/cat-processed.jpg" alt="Cat Processed JPEG" width="1000"/>
+</div>
 
 #### Credits:
 
