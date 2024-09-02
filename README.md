@@ -106,7 +106,7 @@ Below are some examples showcasing the application's functionality:
 **Streamlit Application With Processed Image:**
 
 <div style="text-align: center;">
-    <img src="example_images/streamlit-app-loaded.png" alt="Processed Streamlit" width="1000"/>
+    <img src="example_images/streamlit-app-loaded.png" alt="Processed Streamlit" width="500"/>
 </div>
 
 **Input Image:**
@@ -118,7 +118,7 @@ Below are some examples showcasing the application's functionality:
 **Output Image:**
 
 <div style="text-align: center;">
-    <img src="example_images/cat-processed.jpg" alt="Cat Processed JPEG" width="1000"/>
+    <img src="example_images/cat-processed.jpg" alt="Cat Processed JPEG" width="500"/>
 </div>
 
 #### Credits:
