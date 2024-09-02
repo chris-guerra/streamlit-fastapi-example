@@ -112,13 +112,13 @@ Below are some examples showcasing the application's functionality:
 **Input Image:**
 
 <p align="center">
-    <img src="example_images/cat.jpg" alt="Cat JPEG" width="500"/>
+    <img src="example_images/cat.jpg" alt="Cat JPEG" width="400"/>
 <p/>
 
 **Output Image:**
 
 <p align="center">
-    <img src="example_images/cat-processed.jpg" alt="Cat Processed JPEG" width="500"/>
+    <img src="example_images/cat-processed.jpg" alt="Cat Processed JPEG" width="400"/>
 <p/>
 
 #### Credits:
