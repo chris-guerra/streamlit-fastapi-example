@@ -100,7 +100,7 @@ Below are some examples showcasing the application's functionality:
 **Streamlit Application:**
 
 <div style="text-align: center;">
-    <img src="example_images/streamlit-app.png" alt="Streamlit App" width="1000"/>
+    <img src="example_images/streamlit-app.png" alt="Streamlit App" width="500"/>
 </div>
 
 **Streamlit Application With Processed Image:**
@@ -112,7 +112,7 @@ Below are some examples showcasing the application's functionality:
 **Input Image:**
 
 <div style="text-align: center;">
-    <img src="example_images/cat.jpg" alt="Cat JPEG" width="1000"/>
+    <img src="example_images/cat.jpg" alt="Cat JPEG" width="500"/>
 </div>
 
 **Output Image:**
