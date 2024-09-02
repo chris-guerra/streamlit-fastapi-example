@@ -99,27 +99,27 @@ Below are some examples showcasing the application's functionality:
 
 **Streamlit Application:**
 
-<div style="text-align: center;">
+<p align="center">
     <img src="example_images/streamlit-app.png" alt="Streamlit App" width="500"/>
-</div>
+<p/>
 
 **Streamlit Application With Processed Image:**
 
-<div style="text-align: center;">
+<p align="center">
     <img src="example_images/streamlit-app-loaded.png" alt="Processed Streamlit" width="500"/>
-</div>
+<p/>
 
 **Input Image:**
 
-<div style="text-align: center;">
+<p align="center">
     <img src="example_images/cat.jpg" alt="Cat JPEG" width="500"/>
-</div>
+<p/>
 
 **Output Image:**
 
-<div style="text-align: center;">
+<p align="center">
     <img src="example_images/cat-processed.jpg" alt="Cat Processed JPEG" width="500"/>
-</div>
+<p/>
 
 #### Credits:
 
